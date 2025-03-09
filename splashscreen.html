@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitForLife</title>
+</head>
+<body>  
+      
+    <div id= "Splashscreen" > 
+        <div class="splash-content">
+            <img class= "Splash" src="Fitnessbilder/FitForLife.png" alt="">
+        </div> 
+      </div>
+      
+    <script>
+        function splashscreen () {
+          setTimeout (function () {
+              window.location.href= 'index.html'; //home.html//
+            },2000); 
+          }
+          window.onload=splashscreen;
+    </script>
+    
+    
+    <style>
+        .splashscreen{
+            display: flex;
+            position:fixed;
+            top: 0;
+            left: 0;
+    
+            width: 60%;
+            height: 60%;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+    
+            z-index: 9999;
+        }
+    
+        .Splash{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 250px;
+            width: 250px;
+            margin-left: 630px;
+            margin-top: 200px;
+        }
+
+        .WBes{
+            align-items: center;
+            text-align: center;
+        }
+    </style>
+    
+    <div class="WBes">
+    <p class="Pp">Willkommen auf der FitForLife Website!</p>
+    <p class="pP">Von Klevis Syla</p>
+    </div>
+
+    </body>
+    </html>
+
+</body>
+</html>

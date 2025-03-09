@@ -1,0 +1,588 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar{
+    background-color: transparent;
+    height: 50px;
+    width: 100%; 
+    font-family: "Ubuntu", sans-serif;
+    position: fixed;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.Ueberschrift{
+    text-decoration: none;
+    color: lightgray;
+    margin-left: 60px; 
+    margin-top: 15px;
+    
+}
+
+.Ueberschrift:hover{
+  color: rgb(153, 153, 153);
+}
+
+
+
+
+.navA{
+    text-decoration: none;
+    color:lightgray;
+    margin-right: 80px;
+    margin-top: 15px;
+}
+
+.navA:hover{
+  color: rgb(153, 153, 153);
+}
+
+.gym{
+    width: 100%;
+    height: 1200px;
+}
+
+#nebencontainer{
+    margin: 10px;
+    padding: 10px;
+    width: 500px;
+    margin-left: 850px;
+    margin-top: -400px;
+}
+
+body {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bilder{
+    height: 220px;
+    width: 380px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px;
+    transition: 1s ease;
+    cursor: pointer;
+}
+
+.bilder:hover{
+  transform: scale(1.1);
+}
+
+
+.start-bild h1{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 50px;
+  animation: slideIn 1.5s;
+}
+
+@keyframes slideIn{
+  from {
+      transform: translateX(-50%);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(-50%, -50%);
+      opacity: 1;
+  }
+
+}
+
+.p8{
+  font-weight: 100 !important;
+}
+
+.p9{
+  font-weight: 100 !important;
+}
+.p10{
+  font-weight: 100 !important;
+}
+.p11{
+  font-weight: 100 !important;
+}
+
+.p9::first-letter{
+  font-size: 35px;
+}
+
+.bildueu{
+  margin-left: 900px;
+  margin-top: -900px;
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.ueu{
+  width: 700px;
+  height: 400px;
+  margin-top: -70px;
+  margin-left: -70px; 
+}
+
+.bildueu2{
+  width: 500px;
+  height: 250px;
+  margin-top: 250px;
+  border-radius: 10px;
+}
+
+
+
+
+.ueu2{
+  margin-left: -70px;
+}
+
+.textt{
+  margin-left: 600px;
+  margin-top: -250px;
+}
+
+.Start{
+  height: auto;
+  margin: 100px;
+  padding: 100px;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+
+
+.ueu3{
+  margin-top: 250px;
+  display: flex;
+  margin-left: -70px;
+}
+
+.bildueu3{
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+.ueu4{
+  margin-top: 250px;
+  display: flex;
+  margin-left: -70px;
+}
+
+.texttt ul{
+  list-style-type: none;
+  margin-top: 20px;
+}
+.texttt ul li{
+  margin-top: 15px;
+}
+
+.bildueu4{
+  width: 500px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
+
+
+
+.pics{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 40px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.orte{
+    background-color: whitesmoke;
+    width: 1400;
+    height: 400px;
+    margin-top: 300px;
+}
+
+.Standorte{
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    border-bottom: 1px solid grey;
+    margin-bottom: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+.Standorte h1{
+  margin-bottom: 30px;
+}
+
+
+
+.untertitel{
+  margin-top: 10px;
+}
+
+.line{
+    margin-bottom: 30px;
+    color: red;
+    background-color: red;
+    margin-top: 20px;
+    width: 1100px;
+    margin-left: 230px;
+}
+
+.Mitgliedschaft{
+  border-bottom: 1px solid grey;
+  margin-bottom: 30px;
+  margin-right: 8%;
+  margin-left: 10%;
+}
+
+.Mitgliedschaft p{
+  margin-bottom: 15px;
+}
+
+
+
+
+/*Benefits*/
+.bilder2{
+  height: 390px;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px;
+  transition: 1s ease;
+  cursor: pointer;
+}
+
+.Leistungen{
+  height: 1000px;
+  display: flex;
+  gap: 50px;
+  margin-top: 300px;
+  margin-left: 140px;
+}
+
+.cardTxt{
+  color: gray;
+}
+
+.pics2{
+  display: flex;
+  justify-content: center;
+  margin-left: 30px;
+  margin-right: 100px;
+  gap: 10px;
+  margin-top: 40px;
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+}
+/*Mitgliedschft*/
+.Abos{
+  text-align: center;
+  margin-top: 70px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.p{
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.Karte1{
+  margin-left: 50px;
+  border-top: 20px;
+  height: 690px;
+  width: 500px;
+  background-color: rgb(117, 149, 183);
+  border-radius: 15px;
+  color: white;
+}
+
+.Karte1 p{
+  padding: 10px;
+  color: rgb(232, 232, 232);
+}
+
+.Karte2{
+  border-top: 20px;
+  height: 900px;
+  width: 500px;
+  background-color: rgb(117, 149, 183);
+  border-radius: 15px;
+  color: white;
+}
+
+.Karte2 p{
+  padding: 10px;
+  color: rgb(232, 232, 232);
+}
+
+.Karte3{
+  border-top: 20px;
+  height: 690px;
+  width: 500px;
+  background-color: rgb(117, 149, 183);
+  border-radius: 15px;
+  color: white;
+}
+
+.Karte3 p{
+  padding: 10px;
+  color: rgb(232, 232, 232);
+}
+
+.Karten{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+.schrift{
+  text-align: center;
+  border-top: 10px;
+  margin-top: 10px;
+}
+
+.p1{
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  border-top: 10px;
+}
+
+.preise{
+  font-weight: 100;
+  text-align: center;
+}
+
+.alterpreis{
+  text-decoration: line-through;
+  font-weight: Large;
+  text-align: center;
+}
+
+.button1{
+  border: rgb(59, 59, 187) 2px solid;
+  background-color: white;
+  color: blue;
+  height: 50px;
+  width: 150px;
+  margin-left: 155px;
+  margin-top: 120px;
+  font-size: 20px;
+  border-radius: 13px;
+  transition: 0.5s ease-in-out;
+}
+
+.button2{
+  border: rgb(59, 59, 187) 2px solid;
+  background-color: white;
+  color: blue;
+  height: 50px;
+  width: 150px;
+  margin-left: 155px;
+  margin-top: 44px;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+  border-radius: 13px;
+}
+
+.button3{
+  border: rgb(59, 59, 187) 2px solid;
+  background-color: white;
+  color: blue;
+  height: 50px;
+  width: 150px;
+  margin-left: 155px;
+  margin-top: 20px;
+  font-size: 20px;
+  transition: 0.5s ease-in-out;
+  border-radius: 13px;
+}
+
+.button1:hover,.button2:hover,.button3:hover{
+  color: white;
+  background-color: rgb(71, 71, 187);
+  cursor: pointer;
+}
+
+/*Slider*/
+.UP{
+  text-align: center;
+}
+
+.logos{
+  background-color: grey;
+}
+
+/*Footer*/
+footer{
+  width: 100%;
+  height: 270px;
+  background-color: rgb(0, 65, 109);
+  display: flex;
+  color: white;
+  gap: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+footer h2{
+  margin-bottom: 10px;
+}
+
+footer ul a{
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  transition: 0.3s ease-in-out;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 15px; 
+}
+
+footer ul a {
+  color: white;
+  text-decoration: none;
+}
+
+footer ul a:hover {
+  color: gray;
+}
+
+
+
+
+.p2{
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+.Icons-twitter{
+  padding: 30px;
+  color: white;
+  text-decoration: none;  
+} 
+
+.Icons-yt{
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Icons-instagram{
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Icons-tiktok{
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Impressum{
+  padding: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.Icons-yt:hover{
+  color: red;
+  text-decoration: none;
+}
+
+.Icons-twitter:hover{
+  color: blue;
+  text-decoration: none;
+}
+
+.Icons-instagram:hover{
+  color: #e1306c;
+  text-decoration: none;
+}
+
+.Icons-tiktok:hover{
+  color: cyan;
+  text-decoration: none;
+}
+
+.Apps{
+margin-left: 500px;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  margin-top: 50px;
+  overflow: hidden;
+  padding: 60px 0;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: running;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 40px;
+}
+
+.MYProtein{
+  height: 300px;
+  width: 150px;
+}
+
+.UP{
+  margin-top: -450px;
+}
